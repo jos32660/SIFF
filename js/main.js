@@ -1,6 +1,6 @@
 
 $(".top-navi").children("li").mouseover(function(){
-	$(".navis").css({"display":"block"});
+	$(".navis").css({"display":"inline-block"});
 	$(".navis").stop().slideDown();
 });
 $(".top-navi").children("li").mouseleave(function(){
