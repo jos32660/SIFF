@@ -3,14 +3,23 @@
 .top-bars rect {color: #fff!important; fill: transparent;}
 .top-bars > .top-bar {stroke: #fff; color: #fff;}
 
-.banners{background-color: #2f237c; height: 2000px; position: relative;}
-.banner-crops {position: absolute; top:12%; left: 40%; z-index: 99;}
+.top-navi .navis {display: none; position: absolute; top:80%; right: 6%; color: #fff; width: 41.5rem; cursor: pointer;}
+.top-navi .navis > li {transition: all 0.5s; cursor: pointer;} 
+.top-navi .navis > li:hover {border-bottom: 1px solid #9991c7;}
+
+.banners{position: relative; background-color: #2f237c; height: 1000px;}
+.banner-crops {position: absolute; top:20%; left: 40%; z-index: 99;}
 .banner-crops.crop2 {left: 57%;}
-.banner-crops > .banner-crop {position: absolute; width: 1.5rem; height: 25rem;background-color: #2f237c;}
+.banner-crops > .banner-crop {position: absolute; width: 1.5rem; height: 35rem;background-color: #2f237c;}
 .banner-crops .crop1 {left: 33%;}
 .banner-crops .crop2 {left: 50%;}
-.banner-imgs {position: absolute; width: 50%; top: 13%; left: 30%;}
-.banner-conts {position: absolute; top: 14%; left: 8%; color: #fff;}
+.banner-containers {position: relative; width: 300%; display: flex;}
+.banner-containers > li {position: relative; margin-top: 20rem; margin-left: 20rem; flex: 100% 1 1;}
+.banner-containers img {width: 50%; margin-left: 20%;}
+.banner-conts {position: absolute; top: 10%; left:-8%; color: #fff; z-index: 999;}
 .banner-sub {font-size: 0.8rem; letter-spacing: 0.2rem;}
 .banner-tit {margin-top: 1rem; font-size: 4rem; font-weight: bold;}
 .banner-button {margin-top: 2rem; font-size: 1.2rem; padding: 1rem; width: 10rem;background-color: #fff; color: #2f237c; text-align: center;}
+
+.notice, .news {width: 27rem;}
+.notices .notice-cont {margin: 2rem 0; display: flex; justify-content: space-between;}
