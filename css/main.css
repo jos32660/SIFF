@@ -21,5 +21,6 @@
 .banner-tit {margin-top: 1rem; font-size: 4rem; font-weight: bold;}
 .banner-button {margin-top: 2rem; font-size: 1.2rem; padding: 1rem; width: 10rem;background-color: #fff; color: #2f237c; text-align: center;}
 
-.notice, .news {width: 27rem;}
+.notices {background-color: #eee; padding: 6rem 0;}
+.notice, .news {width: 30rem; background-color: #fff; padding: 2rem; margin: 0 2rem;}
 .notices .notice-cont {margin: 2rem 0; display: flex; justify-content: space-between;}
