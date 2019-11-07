@@ -63,7 +63,7 @@
 					</ul>
 				</li>
 				<div class="top-bars">
-					<svg class="top-bar" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="42px" height="23px" viewBox="0 0 42 23" xml:space="preserve">
+					<svg class="top-bar" id="bar" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="42px" height="23px" viewBox="0 0 42 23" xml:space="preserve">
 						<rect x="0.5" y="0.5" width="41" height="7"></rect>
 						<rect x="0.5" y="15.5" width="41" height="7"></rect>
 						<rect x="0.5" y="0.5" width="41" height="7"></rect>
@@ -73,6 +73,32 @@
 			</ul>
 	</header>
 	<section class="banners">
+		<div class="sides">
+			<svg class="side-close" id="close" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="37px" height="37px" viewBox="0 0 37 37" xml:space="preserve">
+				<polygon points="36.2,5.8 31.9,1.4 18.6,14.2 5.1,1.3 0.9,5.8 14.1,18.5 0.9,31.2 5.1,35.6 18.6,22.7 31.9,35.5 
+					36.2,31.1 23,18.5 "></polygon>
+				<rect x="15.5" y="-3" transform="matrix(0.6919 -0.722 0.722 0.6919 -7.6126 19.1248)" width="6.1" height="43"></rect>
+				<rect x="15.5" y="-3" transform="matrix(-0.6919 -0.722 0.722 -0.6919 18.0718 44.8238)" width="6.1" height="43"></rect>
+			</svg>
+			<ul class="searchs">
+				<li class="col-md-6">상영작 찾기</li>
+				<li><input type="text"></li>
+				<li><button><i class="fas fa-search"></i></button></li>
+			</ul>
+			<ul class="side-cont">
+				<li><span>-</span>ARCHIVE</li>
+				<li><span>-</span>MAGAZINE</li>
+				<li><span>-</span>NOTICE</li>
+				<li><span>-</span>ENGLISH</li>
+			</ul>
+			<ul class="side-sns">
+				<li><i class="fas fa-phone"></i></li>
+				<li><i class="fab fa-twitter"></i></li>
+				<li><i class="fab fa-facebook-f"></i></li>
+				<li><i class="fab fa-instagram"></i></li>
+				<li style="font-weight: 900;">N</li>
+			</ul>
+		</div>
 		<div class="banner-crops">
 			<div class="banner-crop"></div>
 		</div>
@@ -279,6 +305,9 @@
 			</ul>
 		</div>
 	</footer>
+	<div class="bt-top bt-top-show">
+		<span>▲</span>
+	</div>
 	<script src="../js/fx-slide.js"></script>
 	<script src="../js/util.js"></script>
     <script src="../js/main.js"></script>
