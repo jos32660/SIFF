@@ -1,4 +1,4 @@
-html, body {width: 100%;}
+html, body {max-width: 100%;}
 
 .bt-top {position: fixed; bottom: -4.5rem; right: 2rem; z-index: 9999; opacity: 0.7; padding: 0.5rem 1rem 0.5rem 1rem;
     background-color: #e4e4e4;transition: all 0.5s; cursor: pointer;}
@@ -32,18 +32,18 @@ html, body {width: 100%;}
 .banner-tit {margin-top: 1rem; font-size: 4rem; font-weight: bold;}
 .banner-button {margin-top: 2rem; font-size: 1.2rem; padding: 1rem; width: 10rem;background-color: #fff; color: #2f237c; text-align: center;}
 
-.banners > .sides{position: absolute; position: fixed; top:0; right: -100%; width: 25rem; height: 100%; background-color: #fff; z-index: 999;}
-.side-close {position: absolute; right:3.5rem; top: 4rem; z-index: 999; cursor: pointer;}
+.banners > .sides{position: absolute; position: fixed; top:0; right: -100%; width: 25rem; height: 100%; background-color: #fff; z-index: 9999;}
+.side-close {position: absolute; right:2.5rem; top: 4rem; z-index: 9999; cursor: pointer;}
 #close > rect {color: #000!important; fill: transparent; transition: all 0.5s;}
 #close:hover > rect {fill: #000;}
 .banners #close {stroke: #000; color: #000;}
 .searchs {margin:10rem 3rem 0 3rem; display: flex; justify-content: center; align-items: center;}
 .searchs > li:not(:first-child) {margin: 0 0.5rem;}
 .searchs input {border-bottom: 1px solid #222;}
-.side-cont > li {font-size: 2rem; margin: 1rem 1rem; display: flex; transition: all 0.5s; cursor: pointer;}
+.side-cont > li {font-size: 2rem; margin: 1rem 0; display: flex; transition: all 0.5s; cursor: pointer;}
 .side-cont span {display: none; transform: translateX(50%); transition: all 0.5s;}
 .side-cont > li:hover > span {display: block; transform: translateX(-50%);}
-.side-sns {display: flex; margin: 2rem 1rem;}
+.side-sns {display: flex; margin: 2rem 0;}
 .side-sns > li {margin: 0 1rem;}
 
 .notices {background-color: #f3f3f3; padding: 6rem 0;}
@@ -60,10 +60,10 @@ html, body {width: 100%;}
 .insta-img {position: relative; margin: 3rem 2rem;}
 .insta-img > li:last-child {position: absolute; background-color: #fff; text-align: justify; width:60%; padding: 1rem 2rem; bottom: 0; right: 0; opacity: 0; transition: all 0.5s;}
 .insta-img:hover > li:last-child {opacity: 1;}
-.insta-imgs > .block {position: absolute; border: 1px solid #2f237c; z-index:-1; width:20.5vw; height:40.5vh; top:9rem; left: 23rem;}
-.insta-imgs > .block.block2 {left: 53rem;}
-.insta-imgs > .block.block3 {top : 39rem; left: 32.5rem;}
-.insta-imgs > .block.block4 {top : 39rem; left: 62.5rem;}
+.insta-imgs > .block {position: absolute; border: 1px solid #2f237c; z-index:-1; width:16vw; height:35.5vh; top:9rem; left: 32rem;}
+.insta-imgs > .block.block2 {left: 62rem;}
+.insta-imgs > .block.block3 {top : 39rem; left: 41.5rem;}
+.insta-imgs > .block.block4 {top : 39rem; left: 71.5rem;}
 
 .letters {border-top:1px solid #ddd; position: relative; display: flex;}
 .letters-wrap {max-width: 1300px; margin: 0 auto; position: relative;}
