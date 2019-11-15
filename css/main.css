@@ -6,6 +6,7 @@ html, body {max-width: 100%;}
 .bt-top-show {transform: translateY(-7rem);}
 
 .top-wrap {position: absolute; width: 100%; padding: 2rem 3rem; z-index: 999;}
+.top-logo {width: 20%;}
 .top-navi > li {margin: 0 2rem; color: #fff; cursor: pointer; transition: all 0.5s;}
 .top-navi > li:hover {color: #c7c1eb;}
 .top-bars {position: relative; cursor: pointer;}
@@ -90,5 +91,25 @@ html, body {max-width: 100%;}
 .footer-conts > li:first-child {font-weight: bold; margin-bottom: 1rem;}
 .footer-conts > li:last-child {color:#9c9c9c;}
 
-
+@media screen and (min-width: 375px){
+    .top-logo {width: 40%; flex: 30% 0 1;}
+    .top-navi > li {display: none;}
+    .top-bars {display: none;}
+    
+}
+@media screen and (min-width: 768px){
+    .top-logo {width: 40%; flex: 20% 0 1;}
+    .top-bars {display: block;}
+}
+@media screen and (min-width: 992px){
+    .top-logo {width: 10%; flex: 10% 0 1;}
+    .top-navi > li {display: block;}
+    .top-bars {display: block;}
+    
+}
+@media screen and (min-width: 1300px){
+    .top-logo {width: 10%; flex: 10% 0 1;}
+    .top-navi > li {display: block;}
+    .top-bars {display: block;}
+}
 
